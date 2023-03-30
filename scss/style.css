@@ -1,0 +1,193 @@
+/*variables*/
+/*estilos generales*/
+* {
+  background-color: aquamarine;
+  margin: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+body {
+  background-color: rgb(124, 211, 237);
+  border: 2px solid greenyellow;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  background-color: bisque;
+  padding: 10px;
+  background-image: url("../imagenes/bg image 1.jpg");
+  background-size: cover;
+}
+
+.titulo {
+  border: 2px solid greenyellow;
+  background-color: bisque;
+}
+
+/*index*/
+.parrafos {
+  display: flex;
+  overflow: scroll;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.parrafos .parrafo1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 40px;
+  overflow: visible;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+.parrafos .parrafo2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  overflow: visible;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+
+.imagen1 {
+  height: 27%;
+  width: 27%;
+  border: 2px solid black;
+  margin-left: 220px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.imagen2 {
+  height: 50%;
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-left: 220px;
+  display: inline-block;
+}
+
+.imagen1:hover, .imagen2:hover {
+  opacity: 0.8;
+}
+
+a {
+  border: 1px solid turquoise;
+  border-radius: 5px;
+}
+a:hover {
+  background-color: rgb(25, 169, 180);
+  font-size: 22px;
+}
+
+.parrafo3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: lightblue;
+  margin-top: 5px;
+}
+
+.icono {
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+
+.icono:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px;
+  grid-template-rows: 40px 10px;
+}
+
+/*Quienes somos */
+section .quienes {
+  padding-left: 10px;
+  display: inline;
+}
+
+.quienes {
+  display: inline;
+  width: 22%;
+  height: 22%;
+}
+
+.parrafo4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 40px;
+  overflow: visible;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+
+/* Legal */
+.legal {
+  text-align: center;
+  color: lightseagreen;
+}
+
+.termino {
+  background-color: turquoise;
+  margin: 10px;
+  padding: 5px;
+}
+.termino p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  font-size: 15px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 50px;
+  margin: 30px;
+}
+
+.col1:hover, .col2:hover {
+  background-color: lightblue;
+}
+
+.col1 {
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-left: 140px;
+}
+
+.col2 {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.favicon1, .favicon2 {
+  height: 50px;
+  width: 50px;
+}
+
+.favicon1:hover, .favicon2:hover {
+  height: 80px;
+  width: 80px;
+}
+
+.btn {
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */

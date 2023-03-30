@@ -1,0 +1,174 @@
+/* estilos generales */
+*{
+    background-color: aquamarine;
+    margin:10px;
+    padding: 5px;
+    box-sizing:content-box;
+}
+
+body{
+  background-color: turquoise;  
+  border: 2px solid greenyellow;
+}
+
+h1{
+    
+    background-color: bisque;
+}
+
+.titulo{
+    text-align: center;
+    border: 2px solid greenyellow;
+    background-color: bisque;
+}
+
+
+.imagen1{
+
+    height: 50%;
+    width:50%;
+    border: 2px solid black;
+    margin-left: 220px;
+
+        
+}
+    
+.imagen2{
+     height: 50%;
+     width:50%;
+     border: 2px solid black;
+     margin-left: 220px;
+    
+    
+
+}  
+
+.imagen1:hover , .imagen2:hover{
+    opacity: 0.8;
+}
+
+a{
+border: 2px solid turquoise;
+}
+
+a:hover{
+    background-color: lightblue;
+    font-size: 23px;
+}
+
+
+.parrafos{
+    
+    font-family: sans-serif;
+    font-weight: bold;
+    display: flex;
+    overflow: scroll;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border:2px solid greenyellow ;
+    
+}
+
+.parrafo1{
+
+    font-family: sans-serif;
+    font-weight: bold;
+    padding:40px;
+    overflow: scroll;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    box-sizing: border-box;
+}
+
+.parrafo2{
+
+    
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    overflow: scroll;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border:2px solid black;
+    box-sizing: border-box;
+
+}
+    
+      
+
+.icono{
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+     
+    
+}
+
+.icono:hover{
+ background-color: lightblue;
+ cursor: pointer;
+}
+
+
+
+
+.grid-container{
+
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 40px 100px;
+}
+
+.legal{
+
+    text-align: center;
+    font-weight: bold;
+    color:brown;
+
+
+}
+
+/* Legal */
+.termino{
+    background-color: turquoise;  
+  
+}
+
+h3{
+    text-align: center;
+    background-color: bisque;
+}
+
+.termino p{
+    font-family: sans-serif;
+    display: flex;
+    font-weight: bold;
+    
+    
+}
+
+.col1{
+    border: 2px solid black;
+    margin-left:140px;
+    
+}
+
+.col2{
+    border: 2px solid black;
+ 
+  
+}
+.favicon1{
+    height: 50px;
+    width: 50px;
+
+    
+}
+.favicon2{
+    height: 50px;
+    width: 50px; 
+}
+
