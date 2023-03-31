@@ -1,13 +1,13 @@
 /*variables*/
+@import "variables";
 
-$fontSizeBig: 40px;
-$bGTitle: bisque;
-$border: greenyellow;
+
+
 
 /*estilos generales*/
 
 *{
-    background-color: aquamarine;
+    background-color: $bGColor;
     margin:10px;
     padding: 5px;
     box-sizing:border-box;
@@ -42,6 +42,8 @@ body{
 }
 
 /*index*/
+
+
 
 .parrafos{
     
@@ -87,6 +89,7 @@ lightblue;
     }
  }
 
+
 .imagen1{
 
     height: 27%;
@@ -122,6 +125,7 @@ border:1px solid turquoise;
 border-radius: 5px;
 
 
+
 &:hover{
 
     background-color:rgb(25, 169, 180);
@@ -129,7 +133,11 @@ font-size: 22px;
 }
 
 }
-         
+
+.d-flex{
+    margin-left:110px;
+}
+
 
 .parrafo3{
     font-family: Verdana, 
@@ -147,8 +155,7 @@ font-size: 22px;
     width: 30px;
     height: 30px;
     
-    
-    
+      
 }
 
 .icono:hover{
@@ -178,23 +185,10 @@ display: inline;
  
     display: inline; 
     width:22%;
-    height: 22%;
-        
-     }
- 
-     .parrafo4{
-        font-family: Verdana, 
-        Geneva, Tahoma, sans-serif;
-                padding:40px;
-                overflow: visible;
-                margin-top: 5px;
-                margin-bottom: 20px;
-                border:2px solid black;
-                border-radius: 5px;
-                box-sizing: border-box;
-                background-color: 
-        lightblue; 
-     }
+    height: 22%; 
+      
+       
+     }   
 
  
  /* Legal */

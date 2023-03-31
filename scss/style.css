@@ -1,4 +1,4 @@
-/*variables*/
+
 /*estilos generales*/
 * {
   background-color: aquamarine;
@@ -89,6 +89,10 @@ a {
 a:hover {
   background-color: rgb(25, 169, 180);
   font-size: 22px;
+}
+
+.d-flex {
+  margin-left: 110px;
 }
 
 .parrafo3 {
