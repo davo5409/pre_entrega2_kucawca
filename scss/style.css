@@ -1,16 +1,17 @@
-
+/*variables*/
 /*estilos generales*/
 * {
-  background-color: aquamarine;
+  background-color: black;
   margin: 10px;
   padding: 5px;
   box-sizing: border-box;
   border-radius: 5px;
+  background-image: url(../imagenes/bg4.jpg);
 }
 
 body {
-  background-color: rgb(124, 211, 237);
-  border: 2px solid greenyellow;
+  background-color: black;
+  border: 1px solid rgb(211, 58, 211);
   border-radius: 5px;
 }
 
@@ -18,15 +19,14 @@ h1 {
   text-align: center;
   font-size: 40px;
   font-family: sans-serif;
-  background-color: bisque;
+  color: white;
   padding: 10px;
-  background-image: url("../imagenes/bg image 1.jpg");
+  background-image: url("../imagenes/bgimage.jpg");
   background-size: cover;
 }
 
 .titulo {
-  border: 2px solid greenyellow;
-  background-color: bisque;
+  background-color: rgb(211, 58, 211);
 }
 
 /*index*/
@@ -43,10 +43,9 @@ h1 {
   overflow: visible;
   margin-top: 10px;
   margin-bottom: 20px;
-  border: 2px solid black;
   border-radius: 5px;
   box-sizing: border-box;
-  background-color: lightblue;
+  background-color: gray;
 }
 .parrafos .parrafo2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -54,16 +53,14 @@ h1 {
   overflow: visible;
   margin-top: 10px;
   margin-bottom: 20px;
-  border: 2px solid black;
   border-radius: 5px;
   box-sizing: border-box;
-  background-color: lightblue;
+  background-color: gray;
 }
 
 .imagen1 {
   height: 27%;
   width: 27%;
-  border: 2px solid black;
   margin-left: 220px;
   display: inline-block;
   border-radius: 5px;
@@ -72,7 +69,6 @@ h1 {
 .imagen2 {
   height: 50%;
   width: 50%;
-  border: 2px solid black;
   border-radius: 5px;
   margin-left: 220px;
   display: inline-block;
@@ -83,11 +79,13 @@ h1 {
 }
 
 a {
-  border: 1px solid turquoise;
+  background-color: lightgray;
+  color: black;
+  border: 1px solid rgb(211, 58, 211);
   border-radius: 5px;
 }
 a:hover {
-  background-color: rgb(25, 169, 180);
+  background-color: rgba(203, 194, 194, 0.749);
   font-size: 22px;
 }
 
@@ -97,9 +95,17 @@ a:hover {
 
 .parrafo3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border: 2px solid black;
   border-radius: 5px;
-  background-color: lightblue;
+  background-color: gray;
+  color: black;
+  margin-top: 5px;
+}
+
+.parrafoimg {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+  background-color: gray;
   margin-top: 5px;
 }
 
@@ -110,14 +116,21 @@ a:hover {
 }
 
 .icono:hover {
-  background-color: lightblue;
-  cursor: pointer;
-}
+ background-color: gray;
+ }
 
 .grid-container {
   display: grid;
   grid-template-columns: 100px;
   grid-template-rows: 40px 10px;
+}
+
+.video {
+  display: inline-block;
+}
+
+.col-md-4, .col-md-6, .col-md-3, .col-12 {
+  color: black;
 }
 
 /*Quienes somos */
@@ -135,23 +148,66 @@ section .quienes {
 .parrafo4 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 40px;
-  overflow: visible;
+  display: inline-block;
   margin-top: 5px;
   margin-bottom: 20px;
-  border: 2px solid black;
+  border: 2px solid gray;
   border-radius: 5px;
-  box-sizing: border-box;
-  background-color: lightblue;
+  color: black;
+  background-color: gray;
+}
+
+.video {
+  position: relative;
+  text-align: center;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+img.quienes:hover {
+  opacity: 0.5;
+}
+
+.btnbtn-primary {
+  color: black;
+}
+
+.parrafoimg {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 40px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: black;
+}
+
+section.cards {
+  display: inline-block;
+  color: black;
+}
+
+.video1 {
+  text-align: center;
 }
 
 /* Legal */
 .legal {
   text-align: center;
-  color: lightseagreen;
+  color: rgb(211, 58, 211);
 }
 
 .termino {
-  background-color: turquoise;
+  background-color: white;
   margin: 10px;
   padding: 5px;
 }
@@ -159,39 +215,33 @@ section .quienes {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: block;
   font-size: 15px;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 5px;
   padding: 50px;
   margin: 30px;
-}
-
-.col1:hover, .col2:hover {
-  background-color: lightblue;
-}
-
-.col1 {
-  border: 2px solid black;
-  border-radius: 5px;
-  margin-left: 140px;
-}
-
-.col2 {
-  border: 2px solid black;
-  border-radius: 5px;
-}
-
-.favicon1, .favicon2 {
-  height: 50px;
-  width: 50px;
-}
-
-.favicon1:hover, .favicon2:hover {
-  height: 80px;
-  width: 80px;
+  color: black;
+  background-color: gray;
 }
 
 .btn {
-  margin: 20px;
   padding: 20px;
   text-align: center;
+}
+
+.btn-button {
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  text-align: left;
+}
+
+.col {
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-decoration: underline;
+  background-color: gray;
+  color: black;
 }/*# sourceMappingURL=style.css.map */
